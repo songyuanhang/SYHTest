@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C27DC3D11B30702500440493 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C27DC3D01B30702500440493 /* main.m */; };
+		C27DC3D41B30702500440493 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27DC3D31B30702500440493 /* AppDelegate.m */; };
+		C27DC3D61B30702500440493 /* LZHText-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = C27DC3D51B30702500440493 /* LZHText-Prefix.pch */; };
+		C27DC3D81B30702500440493 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27DC3D71B30702500440493 /* Images.xcassets */; };
+		C27DC3DB1B30702500440493 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27DC3D91B30702500440493 /* LaunchScreen.xib */; };
+		C27DC3E71B30702500440493 /* LZHTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27DC3E61B30702500440493 /* LZHTextTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C27DC3E11B30702500440493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27DC3C31B30702500440493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27DC3CA1B30702500440493;
+			remoteInfo = LZHText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C27DC3CB1B30702500440493 /* LZHText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZHText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27DC3CF1B30702500440493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27DC3D01B30702500440493 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C27DC3D21B30702500440493 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C27DC3D31B30702500440493 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C27DC3D51B30702500440493 /* LZHText-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LZHText-Prefix.pch"; sourceTree = "<group>"; };
+		C27DC3D71B30702500440493 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C27DC3DA1B30702500440493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C27DC3E01B30702500440493 /* LZHTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZHTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27DC3E51B30702500440493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27DC3E61B30702500440493 /* LZHTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZHTextTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C27DC3C81B30702500440493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27DC3DD1B30702500440493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27DC3C21B30702500440493 = {
+			isa = PBXGroup;
+			children = (
+				C27DC3CD1B30702500440493 /* LZHText */,
+				C27DC3E31B30702500440493 /* LZHTextTests */,
+				C27DC3CC1B30702500440493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27DC3CC1B30702500440493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27DC3CB1B30702500440493 /* LZHText.app */,
+				C27DC3E01B30702500440493 /* LZHTextTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27DC3CD1B30702500440493 /* LZHText */ = {
+			isa = PBXGroup;
+			children = (
+				C27DC4081B30717000440493 /* Controller */,
+				C27DC4091B30717000440493 /* Mode */,
+				C27DC40A1B30717000440493 /* Other */,
+				C27DC40B1B30717000440493 /* View */,
+				C27DC3D21B30702500440493 /* AppDelegate.h */,
+				C27DC3D31B30702500440493 /* AppDelegate.m */,
+				C27DC3D51B30702500440493 /* LZHText-Prefix.pch */,
+				C27DC3D71B30702500440493 /* Images.xcassets */,
+				C27DC3D91B30702500440493 /* LaunchScreen.xib */,
+				C27DC3CE1B30702500440493 /* Supporting Files */,
+			);
+			path = LZHText;
+			sourceTree = "<group>";
+		};
+		C27DC3CE1B30702500440493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27DC3CF1B30702500440493 /* Info.plist */,
+				C27DC3D01B30702500440493 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C27DC3E31B30702500440493 /* LZHTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				C27DC3E61B30702500440493 /* LZHTextTests.m */,
+				C27DC3E41B30702500440493 /* Supporting Files */,
+			);
+			path = LZHTextTests;
+			sourceTree = "<group>";
+		};
+		C27DC3E41B30702500440493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27DC3E51B30702500440493 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C27DC4081B30717000440493 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C27DC4091B30717000440493 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		C27DC40A1B30717000440493 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C27DC40B1B30717000440493 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C27DC40C1B30717000440493 /* 未命名文件夹 */,
+				C27DC40D1B30717000440493 /* 未命名文件夹 2 */,
+				C27DC40E1B30717000440493 /* 未命名文件夹 3 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C27DC40C1B30717000440493 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+		C27DC40D1B30717000440493 /* 未命名文件夹 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 2";
+			sourceTree = "<group>";
+		};
+		C27DC40E1B30717000440493 /* 未命名文件夹 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "未命名文件夹 3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C27DC3CA1B30702500440493 /* LZHText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27DC3EA1B30702500440493 /* Build configuration list for PBXNativeTarget "LZHText" */;
+			buildPhases = (
+				C27DC3C71B30702500440493 /* Sources */,
+				C27DC3C81B30702500440493 /* Frameworks */,
+				C27DC3C91B30702500440493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZHText;
+			productName = LZHText;
+			productReference = C27DC3CB1B30702500440493 /* LZHText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C27DC3DF1B30702500440493 /* LZHTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27DC3ED1B30702500440493 /* Build configuration list for PBXNativeTarget "LZHTextTests" */;
+			buildPhases = (
+				C27DC3DC1B30702500440493 /* Sources */,
+				C27DC3DD1B30702500440493 /* Frameworks */,
+				C27DC3DE1B30702500440493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27DC3E21B30702500440493 /* PBXTargetDependency */,
+			);
+			name = LZHTextTests;
+			productName = LZHTextTests;
+			productReference = C27DC3E01B30702500440493 /* LZHTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27DC3C31B30702500440493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "宋功德";
+				TargetAttributes = {
+					C27DC3CA1B30702500440493 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C27DC3DF1B30702500440493 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C27DC3CA1B30702500440493;
+					};
+				};
+			};
+			buildConfigurationList = C27DC3C61B30702500440493 /* Build configuration list for PBXProject "LZHText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27DC3C21B30702500440493;
+			productRefGroup = C27DC3CC1B30702500440493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27DC3CA1B30702500440493 /* LZHText */,
+				C27DC3DF1B30702500440493 /* LZHTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C27DC3C91B30702500440493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27DC3D61B30702500440493 /* LZHText-Prefix.pch in Resources */,
+				C27DC3DB1B30702500440493 /* LaunchScreen.xib in Resources */,
+				C27DC3D81B30702500440493 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27DC3DE1B30702500440493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C27DC3C71B30702500440493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27DC3D41B30702500440493 /* AppDelegate.m in Sources */,
+				C27DC3D11B30702500440493 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27DC3DC1B30702500440493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27DC3E71B30702500440493 /* LZHTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C27DC3E21B30702500440493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27DC3CA1B30702500440493 /* LZHText */;
+			targetProxy = C27DC3E11B30702500440493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C27DC3D91B30702500440493 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27DC3DA1B30702500440493 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C27DC3E81B30702500440493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C27DC3E91B30702500440493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C27DC3EB1B30702500440493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZHText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C27DC3EC1B30702500440493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZHText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C27DC3EE1B30702500440493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZHTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZHText.app/LZHText";
+			};
+			name = Debug;
+		};
+		C27DC3EF1B30702500440493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LZHTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZHText.app/LZHText";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C27DC3C61B30702500440493 /* Build configuration list for PBXProject "LZHText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27DC3E81B30702500440493 /* Debug */,
+				C27DC3E91B30702500440493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27DC3EA1B30702500440493 /* Build configuration list for PBXNativeTarget "LZHText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27DC3EB1B30702500440493 /* Debug */,
+				C27DC3EC1B30702500440493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27DC3ED1B30702500440493 /* Build configuration list for PBXNativeTarget "LZHTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27DC3EE1B30702500440493 /* Debug */,
+				C27DC3EF1B30702500440493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C27DC3C31B30702500440493 /* Project object */;
+}
